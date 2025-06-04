@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+// import Advertisement from './advertisement';
 import Advertisement from './advertisement';
+// import Home from './Home';
 function SideVed() {
   const [videos, setVideos] = useState([]);
 
