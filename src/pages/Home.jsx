@@ -19,10 +19,10 @@ const apiKey = 'AIzaSyAtRECmBKoGM-o1LvRkM5et1Ny-VBx3fAU';
     <>
       <NavbarMain />
       <div className="p-4">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {videos.map((video) => (
             <Link to={`/video/${video.id}`} key={video.id}>
-              <div className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white rounded-md overflow-hidden shadow hover:shadow-lg transition-shadow duration-300">
                 <img
                   src={video.snippet.thumbnails.high.url}
                   alt={video.snippet.title}
