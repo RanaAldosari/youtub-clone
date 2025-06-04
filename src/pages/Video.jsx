@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router'; 
-import SideVed from './SideVed';
+// import SideVed from './SideVed';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router';
 // import Navbar from '../component/Navbar';
 import NavbarMain from '../component/NavbarMain';
+import SideVed from './SideVed';
 function Video() {
   const navigate=useNavigate()
   const { id } = useParams(); 
