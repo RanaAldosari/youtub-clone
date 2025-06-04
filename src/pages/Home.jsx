@@ -18,7 +18,7 @@ const apiKey = 'AIzaSyAtRECmBKoGM-o1LvRkM5et1Ny-VBx3fAU';
   return (
     <>
       <NavbarMain />
-      <div className="p-4">
+ <div className="p-4">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {videos.map((video) => (
             <Link to={`/video/${video.id}`} key={video.id}>
