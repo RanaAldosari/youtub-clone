@@ -59,7 +59,7 @@ function VideoSign() {
         text: "Please login to post a comment.",
         confirmButtonText: "Go to Login",
       }).then(() => {
-        navigate("/login");
+        navigate("/sign");
       });
       return;
     }
